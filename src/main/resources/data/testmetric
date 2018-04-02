@@ -1,0 +1,8 @@
+#The 法律文书统计 file
+#Thu Oct 20 11:26:57 CST 2016
+#词典配置注意事项：
+#信息点别名#信息点路径＃案由＃统计信息点类型＃值
+#统计信息点类型分为List Date Range Histogram
+#Date分为Year Month Day
+判决时间百分位#meta_人物信息.judgeList.judgmentTime#ALL#Percentile
+判决时间描述统计#meta_人物信息.judgeList.fine#ALL#StatsDes

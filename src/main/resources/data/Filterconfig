@@ -1,0 +1,4 @@
+info_判罚类型#meta_人物信息.peopleAttrMap.info_判罚类型#List#Must
+info_缓刑月数#meta_人物信息.peopleAttrMap.info_缓刑月数#Range#Must
+meta_法院层级#meta_法院层级#Term#Must
+meta_判决层级#meta_判决层级#List#Probably
