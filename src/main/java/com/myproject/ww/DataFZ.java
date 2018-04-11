@@ -20,22 +20,7 @@ public class DataFZ {
 
       }
   public static void main(String[] args){
-        String query = "{\n" + "        \"bool\": {\n" + "            \"must\": [\n"
-            + "                {\"range\": {\n" + "                   \"meta_裁判日期\": {\n"
-            + "                      \"from\": \"2017-01-01\",\n"
-            + "                      \"to\": \"2018-04-11\"\n" + "                   }\n"
-            + "                }},\n" + "                {\n" + "                    \"bool\": {\n"
-            + "                        \"must\": [\n" + "                            {\"term\": {\n"
-            + "                              \"meta_案由\": {\n"
-            + "                                 \"value\": \"金融借款合同纠纷\"\n"
-            + "                              }\n" + "                           }},{\n"
-            + "                               \"term\": {\n"
-            + "                                  \"meta_法院_省\": {\n"
-            + "                                     \"value\": \"福建省\"\n"
-            + "                                  }\n" + "                               }\n"
-            + "                           }\n" + "                        ]\n"
-            + "                    }\n" + "                }\n" + "                ]\n"
-            + "        }\n" + "    }";
+        String query = "";
 
     SearchResponse response = client.prepareSearch("es_fdlawcase")
         .setQuery(query).setSize(1000).setScroll(new TimeValue(600000))
