@@ -1,8 +1,8 @@
 #The New properties file
 #Thu Oct 20 11:26:57 CST 2016
 
-IP=139.2.14.100,139.2.14.101,139.2.14.102
-#IP=192.168.0.220,192.168.0.221,192.168.0.222
+#IP=139.2.14.100,139.2.14.101,139.2.14.102
+IP=192.168.0.220,192.168.0.221,192.168.0.222
 CLUSTER_NAME=fd-data
 PORT=9300
 LawIndex=es_fdlawcase
@@ -15,7 +15,7 @@ Min_Score = 0.0
 intellisense.index=es_searchtype1
 intellisense.type=linksearch
 similarcase.index2=es_civil0812
-#hbase.zookeeper.quorum=192.168.0.220,192.168.0.221,192.168.0.222
-hbase.zookeeper.quorum=139.0.31.81,139.0.31.82,139.0.31.83
+hbase.zookeeper.quorum=192.168.0.220,192.168.0.221,192.168.0.222
+#hbase.zookeeper.quorum=139.0.31.81,139.0.31.82,139.0.31.83
 hbase.zookeeper.property.clientPort=2181
 intellisense.party.avoid.words=(\u79bb|\u76d7|\u62a2|\u5a5a|\u4fdd|\u7684|\u5f8b|\u8d77\u8bc9)
