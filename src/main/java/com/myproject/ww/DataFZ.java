@@ -46,7 +46,7 @@ public class DataFZ {
           String type = searchHit.getHits()[i].getType();
           String id = searchHit.getHits()[i].getId();
           String json = searchHit.getHits()[i].getSourceAsString();
-          json = "{"+"\"type\":\""+type+"\",\"_source\":"+json+",\"id\":\""+id+"\"}";
+          json = "{"+"\"_type\":\""+type+"\",\"_source\":"+json+",\"_id\":\""+id+"\"}";
           out.write(json);
           out.write("\n");
           System.out.println("第 "+i+" 次打印");
